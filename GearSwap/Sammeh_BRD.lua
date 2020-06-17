@@ -128,7 +128,7 @@ function init_gear_sets()
 		sub="Ammurapi Shield",range="Gjallarhorn",body="Brioso Justau. +3",
         head="Fili Calot",neck="Aoidos' Matinee",ear2="Aoidos' Earring",ear1="Loquac. Earring",
         hands="Gendewitha Gages +1",ring1="Kishar Ring",ring2="Weather. Ring",
-        back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10',}},waist="Witful Belt",legs="Doyen Pants",feet="Bihu Slippers",}
+        back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Damage Taken -5%'}},waist="Aoidos' Belt",legs="Gende. Spats +1",feet="Bihu Slippers",}
 
     sets.precast.FastCast.BardSong = {
     	main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
@@ -310,7 +310,7 @@ function init_gear_sets()
 		back="Solemnity Cape",
 		waist="Flume Belt +1",
 		legs="Assiduity Pants +1",
-		feet="Fili Cothurnes +1"
+		feet="Fili Cothurnes"
 		}
 	sets.Idle.PDT = {
 		head="Aya. Zucchetto +2",
