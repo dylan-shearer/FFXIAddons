@@ -87,7 +87,7 @@ function user_setup()
 --    send_command('bind !` input /ma "Chocobo Mazurka" <me>')
 
     select_default_macro_book()
-	send_command('@wait 5;input /lockstyleset 40')
+	send_command('@wait 5;input /lockstyleset 01')
 	
 	waittime = 2.7
 
@@ -342,18 +342,16 @@ function init_gear_sets()
     sets.engaged = {
     	range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
 		head="Aya. Zucchetto +2",
-		body="Ashera Harness",
-		hands="Aya. Manopolas +2",
-		--legs={ name="Chironic Hose", augments={'"Triple Atk."+2','"Mag.Atk.Bns."+21','Accuracy+20 Attack+20',}},
-        legs={ name="Chironic Hose", augments={'Attack+22','Pet: "Dbl. Atk."+4','Quadruple Attack +3','Mag. Acc.+15 "Mag.Atk.Bns."+15',}},
-		feet={ name="Chironic Slippers", augments={'Accuracy+17','MND+9','Quadruple Attack +3','Accuracy+7 Attack+7',}},
-		--neck="Combatant's Torque",
+		body="Ayanmo Corazza +1",
+		hands="Aya. Manopolas +1",
+		legs="Aya. Cosciales +1",
+		feet="Aya. Gambieras +1",
         neck="Bard's Charm +2",
-		waist="Sailfi Belt +1",
-		left_ear="Telos Earring",
-		right_ear="Cessance Earring",
-		left_ring="Ilabrat Ring",
-		right_ring="Hetairoi Ring",
+		waist="Windbuffet Belt +1",
+		left_ear="Brutal Earring",
+		right_ear="Suppanomimi",
+		left_ring="Chirich Ring",
+		right_ring="Chirich Ring",
 		back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
 	}	
     
@@ -362,15 +360,15 @@ function init_gear_sets()
         head="Aya. Zucchetto +2",
         body="Aya. Corazza +1",
         hands="Aya. Manopolas +1",
-        legs="Jokushu Haidate",
-        feet={ name="Chironic Slippers", augments={'Accuracy+17','MND+9','Quadruple Attack +3','Accuracy+7 Attack+7',}},
+        legs="Aya. Cosciales +1",
+        feet="Aya. Gambieras +1",
         neck="Bard's Charm +2",
-        waist="Reiki Yotai",
-        left_ear="Telos Earring",
+        waist="Windbuffet Belt +1",
+        left_ear="Brutal Earring",
         right_ear="Suppanomimi",
-        left_ring="Ilabrat Ring",
-        right_ring="Hetairoi Ring",
-        back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+        left_ring="Chirich Ring",
+        right_ring="Chirich Ring",
+        back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Damage Taken -5%'}},
     }
     
 	
