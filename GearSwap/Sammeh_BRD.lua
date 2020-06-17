@@ -221,16 +221,16 @@ function init_gear_sets()
 	    main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
 		sub="Ammurapi Shield",
 		range="Gjallarhorn",
-		head="Brioso Roundlet +3",
-		body="Brioso Justau. +3",
-		hands="Brioso Cuffs +3",
-		legs="Brioso Cannions +3",
-		feet="Brioso Slippers +3",
+		head="Brioso Roundlet +1",
+		body="Brioso Justau. +1",
+		hands="Brioso Cuffs +1",
+		legs="Brioso Cannions +1",
+		feet="Brioso Slippers +1",
 		neck="Mnbw. Whistle +1",
 		waist="Luminary Sash",
 		left_ear="Regal Earring",
 		right_ear="Enchntr. Earring +1",
-		left_ring="Stikini Ring +1",
+		left_ring="Stikini Ring",
 		right_ring="Weather. Ring",
 		back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10',}},
 	}
@@ -240,7 +240,7 @@ function init_gear_sets()
 	sets.midcast.LullabyFull.ResistantSongDebuff = set_combine(sets.midcast.ResistantSongDebuff, sets.midcast.Lullaby)
 
     -- Song-specific recast reduction
-    sets.midcast.SongRecast = {ear2="Loquacious Earring",ring1="Kishar Ring",legs="Fili Rhingrave +1"} --back="Harmony Cape",waist="Corvax Sash",
+    sets.midcast.SongRecast = {ear2="Loquacious Earring",ring1="Kishar Ring",legs="Fili Rhingrave"} --back="Harmony Cape",waist="Corvax Sash",
 
     --sets.midcast.Daurdabla = set_combine(sets.midcast.FastRecast, sets.midcast.SongRecast, {range=info.ExtraSongInstrument})
 
