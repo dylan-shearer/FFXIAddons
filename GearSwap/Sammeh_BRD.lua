@@ -314,15 +314,15 @@ function init_gear_sets()
 		}
 	sets.Idle.PDT = {
 		head="Aya. Zucchetto +2",
-        body="Ashera Harness",
-        hands="Aya. Manopolas +2",
+        body="Ayanmo Corazza +1",
+        hands="Aya. Manopolas +1",
         legs="Brioso Cannions +1",
         feet="Fili Cothurnes",
-        neck="Loricate Torque +1",
+        neck="Twilight Torque",
         waist="Flume Belt +1",
         left_ear="Odnowa Earring +1",
         right_ear="Genmei Earring",
-        left_ring={ name="Dark Ring", augments={'Magic dmg. taken -3%','Phys. dmg. taken -6%',}},
+        left_ring="Gelatinous Ring",
         right_ring="Defending Ring",
         back="Solemnity Cape",
 	}
