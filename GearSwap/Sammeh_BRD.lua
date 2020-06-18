@@ -204,7 +204,7 @@ function init_gear_sets()
     
 
     -- For song buffs (duration and AF3 set bonus)
-    sets.midcast.SongEffect = {main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},Sub="Ammurapi Shield",range="Gjallarhorn",
+    sets.midcast.SongEffect = {main="Legato Dagger",Sub="Ammurapi Shield",range="Gjallarhorn",
         head="Fili Calot",body="Fili Hongreline",neck="Mnbw. Whistle +1",ear1="Aoidos' Earring",ear2="Loquac. Earring",
         hands="Fili Manchettes",ring1="Stikini Ring",ring2="Weather. Ring",
         back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10',}},waist="Witful Belt",legs="Inyanga Shalwar +2",feet="Brioso Slippers +1",}
