@@ -124,14 +124,14 @@ function init_gear_sets()
     sets.precast.FastCast['Enhancing Magic'] = set_combine(sets.precast.FastCast, {waist="Witful Belt"})
 
     sets.precast.FastCast.BardSong = {
-    	main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
+    	main="Felibre's Dague",
 		sub="Ammurapi Shield",range="Gjallarhorn",body="Brioso Justau. +3",
         head="Fili Calot",neck="Aoidos' Matinee",ear2="Aoidos' Earring",ear1="Loquac. Earring",
         hands="Gendewitha Gages +1",ring1="Kishar Ring",ring2="Weather. Ring",
         back={ name="Intarabus's Cape", augments={'CHR+20','Mag. Acc+20 /Mag. Dmg.+20','"Fast Cast"+10','Damage Taken -5%'}},waist="Aoidos' Belt",legs="Gende. Spats +1",feet="Bihu Slippers",}
 
     sets.precast.FastCast.BardSong = {
-    	main={ name="Kali", augments={'Mag. Acc.+15','String instrument skill +10','Wind instrument skill +10',}},
+    	main="Felibre's Dague",
 		sub="Ammurapi Shield",range="Gjallarhorn",body="Brioso Justau. +3",
         head="Fili Calot",neck="Aoidos' Matinee",ear2="Aoidos' Earring",ear1="Loquac. Earring",
         hands="Gendewitha Gages +1",ring1="Kishar Ring",--ring2="Weather. Ring",
