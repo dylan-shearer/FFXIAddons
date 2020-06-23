@@ -154,7 +154,7 @@ function init_gear_sets()
     -- Default set for any weaponskill that isn't any more specifically defined
     sets.precast.WS = {
         range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
-		head="Aya. Zucchetto +2",
+		head="Lustratio Cap +1",
 		body="Bihu Jstcorps. +3",
 		hands="Aya. Manopolas +2",
 		legs="Jokushu Haidate",
