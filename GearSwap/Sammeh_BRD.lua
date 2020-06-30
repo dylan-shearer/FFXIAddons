@@ -342,7 +342,7 @@ function init_gear_sets()
     sets.engaged = {
     	range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
 		head="Aya. Zucchetto +2",
-		body="Ayanmo Corazza +1",
+		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Aya. Cosciales +1",
 		feet="Aya. Gambieras +1",
