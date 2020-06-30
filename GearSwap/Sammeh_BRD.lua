@@ -352,7 +352,7 @@ function init_gear_sets()
 		right_ear="Suppanomimi",
 		left_ring="Chirich Ring",
 		right_ring="Chirich Ring",
-		back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10',}},
+		back={ name="Intarabus's Cape", augments={'DEX+30','Accuracy+20 Attack+20','"Dual Wield"+9'}},
 	}	
     
     sets.engaged.DualWield = {
