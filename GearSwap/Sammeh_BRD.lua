@@ -172,7 +172,7 @@ function init_gear_sets()
 		
     
     -- Specific weaponskill sets.  Uses the base set if an appropriate WSMod version isn't found.
-    sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {body="Ayanmo Corazza +2", neck="Fotia Gorget", waist="Fotia Belt", head="Lustratio Cap +1", feet="Lustra. Leggings +1", left_ring="Begrudging Ring", back={ name="Intarabus's Cape", augments={'DEX+30','Accuracy+20 Attack+20','Critical Hit Rate +10%',}}})
+    sets.precast.WS['Evisceration'] = set_combine(sets.precast.WS, {body="Ayanmo Corazza +2", neck="Fotia Gorget", waist="Soil Belt", head="Lustratio Cap +1", feet="Lustra. Leggings +1", left_ring="Begrudging Ring", back={ name="Intarabus's Cape", augments={'DEX+30','Accuracy+20 Attack+20','Critical Hit Rate +10%',}}})
     sets.precast.WS['Rudras Storm'] = set_combine(sets.precast.WS)
     sets.precast.WS['Exenterator'] = set_combine(sets.precast.WS, {neck="Fotia Gorget", waist="Fotia Belt"})
     sets.precast.WS['Mordant Rime'] = set_combine(sets.precast.WS)
