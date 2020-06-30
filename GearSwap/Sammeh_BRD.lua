@@ -358,7 +358,7 @@ function init_gear_sets()
     sets.engaged.DualWield = {
         range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
         head="Aya. Zucchetto +2",
-        body="Aya. Corazza +1",
+        body="Aya. Corazza +2",
         hands="Aya. Manopolas +1",
         legs="Aya. Cosciales +1",
         feet="Aya. Gambieras +1",
@@ -368,7 +368,7 @@ function init_gear_sets()
         right_ear="Suppanomimi",
         left_ring="Chirich Ring",
         right_ring="Chirich Ring",
-        back={ name="Intarabus's Cape", augments={'DEX+20','Accuracy+20 Attack+20','"Dbl.Atk."+10','Damage Taken -5%'}},
+        back={ name="Intarabus's Cape", augments={'DEX+30','Accuracy+20 Attack+20','"Dual Wield"+9'}},
     }
     
 	
