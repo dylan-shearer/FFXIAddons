@@ -176,6 +176,7 @@ function init_gear_sets()
     sets.precast.WS['Rudras Storm'] = set_combine(sets.precast.WS)
     sets.precast.WS['Exenterator'] = set_combine(sets.precast.WS, {neck="Fotia Gorget", waist="Fotia Belt"})
     sets.precast.WS['Mordant Rime'] = set_combine(sets.precast.WS)
+sets.precast.WS['Aeolian Edge'] = set_combine(sets.precast.WS, {left_ear="Hecate's Earring", right_ear="Friomisi Earring", feet="Chironic Slippers", hands="Chironic Gloves", legs="Gyve Trousers"})
     
     
     -- Midcast Sets
