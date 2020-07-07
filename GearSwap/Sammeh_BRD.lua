@@ -341,13 +341,13 @@ sets.precast.WS['Aeolian Edge'] = set_combine(sets.precast.WS, {left_ear="Hecate
 
     -- Engaged sets
     sets.engaged = {
-    	range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
+    	range={ name="Linos", augments={'Accuracy+12','"Store TP"+4','Quadruple Attack +2',}},
 		head="Aya. Zucchetto +2",
 		body="Ayanmo Corazza +2",
 		hands="Aya. Manopolas +1",
 		legs="Aya. Cosciales +1",
 		feet="Aya. Gambieras +1",
-        neck="Bard's Charm +2",
+        neck="Bard's Charm +1",
 		waist="Windbuffet Belt +1",
 		left_ear="Brutal Earring",
 		right_ear="Suppanomimi",
@@ -357,13 +357,13 @@ sets.precast.WS['Aeolian Edge'] = set_combine(sets.precast.WS, {left_ear="Hecate
 	}	
     
     sets.engaged.DualWield = {
-        range={ name="Linos", augments={'Accuracy+15','"Store TP"+4','Quadruple Attack +3',}},
+        range={ name="Linos", augments={'Accuracy+12','"Store TP"+4','Quadruple Attack +2',}},
         head="Aya. Zucchetto +2",
         body="Aya. Corazza +2",
         hands="Aya. Manopolas +1",
         legs="Aya. Cosciales +1",
         feet="Aya. Gambieras +1",
-        neck="Bard's Charm +2",
+        neck="Bard's Charm +1",
         waist="Windbuffet Belt +1",
         left_ear="Brutal Earring",
         right_ear="Suppanomimi",
